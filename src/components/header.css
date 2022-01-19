@@ -1,0 +1,10 @@
+
+.button button{
+    background-color: blue;
+    color: green;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 5px 50px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
