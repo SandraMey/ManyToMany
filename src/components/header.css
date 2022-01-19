@@ -1,10 +1,30 @@
+.Home-Header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+}
 
 .button {
     background-color: #1d3b88;
     color: white;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 20px;
     padding: 5px 20px;
     border: 2px solid #47B9B0;
     border-radius: 10px;
+}
+h1{
+    padding-bottom: 5%;
+}
+
+p{
+    text-align: justify;
+    margin: 15px;
+}
+
+.logo{
+margin-left: 5px;
+margin-top: 5px;
 }
