@@ -17,7 +17,7 @@ const Header = () => {
             <button className="button">Go directly to the site</button>
         </a>
 
-        <p>In order to better support you, you can answer a few questions or go directly to the site.</p>
+        <p className='headerintro'>In order to better support you, you can answer a few questions or go directly to the site.</p>
     </div>
     </header>
   )

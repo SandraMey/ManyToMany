@@ -1,0 +1,49 @@
+.deepening{
+  background-color: #234AAD71;
+  color: white;
+  width: 100%;
+}
+h1{
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+}
+.container{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  justify-items: center;
+}
+.create{
+  grid-column: 1;
+  grid-row: 1;
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.create{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
+.renovation {
+  grid-column: 2;
+  grid-row: 1;
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.renovation{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
