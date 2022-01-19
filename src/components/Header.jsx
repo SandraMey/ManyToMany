@@ -11,7 +11,7 @@ const Header = () => {
             Welcome to ManoMano
         </h1>
         <a href='https://www.manomano.fr/'>
-            <button className="button">go directly to the site</button>
+            <button className="button">Go directly to the site</button>
         </a>
         <p>In order to better support you, you can answer a few questions or go directly to the site.</p>
     </header>

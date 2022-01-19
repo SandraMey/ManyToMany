@@ -1,51 +1,27 @@
 .zone{
   background-color: #E9EFFF;
   color: #0C193A;
-  
-
+  width: 100%;
+}
+h1{
+  display: flex;
+  text-align: center;
 }
 .container{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  margin: 50px;
 }
-.salleDeBain{
+.bathroom{
+  grid-column: 1;
+  grid-row: 1;
   clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
   height: 100px;
   width: 100px;
   background-color: #47B9B0
 }
-.cuisine {
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.garage {
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.jardin {
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.mangeroom {
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.livingroom {
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.inside{
+.insidebathroom{
   clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
   top: 10px;
   left: 10px;
@@ -53,4 +29,84 @@
   bottom: 10px;
   background: #80E9E1;
 }
+.kitchen {
+  grid-column: 2;
+  grid-row: 1;
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.insidekitchen{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
+.livingroom {
+  grid-column: 1;
+  grid-row: 2;
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.insidelivingroom{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
+.garage {
+  grid-column: 1;
+  grid-row: 3;
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.insidegarage{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
+
+.garden {
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.insidegarden{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
+.dinnerroom {
+  grid-column: 2;
+  grid-row: 2;
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.insidedinnerroom{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
+
 
