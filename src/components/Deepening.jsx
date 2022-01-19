@@ -1,10 +1,5 @@
 import React from 'react';
 import ButtonChoice from './ButtonChoice/buton';
-import imgWc from '../assets/wc.jpg';
-import imgplumbing from '../assets/plumbing.jpg';
-import imgtapis from '../assets/tapis.webp';
-import imgbath from '../assets/bath.jpg';
-import imgfloor from '../assets/floor.jpg'
 
 import './deepening.css';
 
@@ -20,7 +15,7 @@ const Deepening = () => {
         <ButtonChoice
           choice={'create'}
           style={`${"create"}`}
-          linkTo='/deepening'
+          linkTo='/level'
           svg={<img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-documents-project-work-icongeek26-outline-colour-icongeek26-1.png" className='imgplumbing'></img>
           }/>
         <p className='titlework'>Do It Yourself</p>
@@ -29,7 +24,7 @@ const Deepening = () => {
         <ButtonChoice
           choice={'renovation'}
           style={`${"renovation"}`}
-          linkTo='/deepening'
+          linkTo='/level'
           svg={<img src="https://img.icons8.com/external-flat-juicy-fish/60/000000/external-diy-gears-and-cogs-flat-flat-juicy-fish.png" className='imgplumbing'></img>
           }/>
         <p className='titlework'>Renovation</p>
@@ -41,7 +36,6 @@ const Deepening = () => {
       </a>
     </div>
 </main>
-)
-};
+)};
 
 export default Deepening;

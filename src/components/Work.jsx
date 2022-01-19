@@ -16,14 +16,14 @@ const Work = () => {
         <p>2/5</p>
       </div>
       <div className="containerwork">
-        <div className="containertitle">  
+      <div className="containertitle"> 
           <ButtonChoice
-            choice={'wc'}
-            style={`${"wc"}`}
+            choice={'faucets'}
+            style={`${"faucets"}`}
             linkTo='/deepening'
-            svg={<img src="https://cdn.manomano.com/images/images_products/820/T/53683_2.jpg" className='imgplumbing'></img>
+            svg={<img src={imgplumbing} className='imgplumbing'></img>
             }/>
-          <p className='titlework'>Toilets</p>
+          <p className='titlework'>Plumbing</p>
         </div>  
         <div className="containertitle">  
           <ButtonChoice
@@ -61,15 +61,15 @@ const Work = () => {
             }/>
           <p className='titlework'>Acessories</p>
         </div>
-        <div className="containertitle"> 
+        <div className="containertitle">  
           <ButtonChoice
-            choice={'faucets'}
-            style={`${"faucets"}`}
+            choice={'wc'}
+            style={`${"wc"}`}
             linkTo='/deepening'
-            svg={<img src={imgplumbing} className='imgplumbing'></img>
+            svg={<img src="https://cdn.manomano.com/images/images_products/820/T/53683_2.jpg" className='imgplumbing'></img>
             }/>
-          <p className='titlework'>Plumbing</p>
-        </div>
+          <p className='titlework'>Toilets</p>
+        </div>  
       </div>
       <div className="buttonnext">
         <a href='/'>
