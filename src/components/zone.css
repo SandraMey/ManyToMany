@@ -110,5 +110,8 @@ h1{
   bottom: 10px;
   background: #80E9E1;
 }
+.del {
+  display: none;
+}
 
 
