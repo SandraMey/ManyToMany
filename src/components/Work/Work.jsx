@@ -18,7 +18,7 @@ const Work = () => {
           <ButtonChoice
             choice={"faucets"}
             style={`${"faucets"}`}
-            linkTo="/deepening"
+            linkTo="/work"
             svg={<img src={imgplumbing} alt="" className="imgplumbing"></img>}
           />
           <p className="titlework">Plumbing</p>
@@ -27,7 +27,7 @@ const Work = () => {
           <ButtonChoice
             choice={"shower"}
             style={`${"shower"}`}
-            linkTo="/deepening"
+            linkTo="/work"
             svg={
               <img
                 src="https://cdn.manomano.com/images/images_products/3021291/T/15949727_4.jpg"
@@ -42,7 +42,7 @@ const Work = () => {
           <ButtonChoice
             choice={"SPA"}
             style={`${"SPA"}`}
-            linkTo="/deepening"
+            linkTo="/work"
             svg={
               <img
                 src="https://cdn.manomano.com/images/images_products/435501/T/3792165_1.jpg"
@@ -57,7 +57,7 @@ const Work = () => {
           <ButtonChoice
             choice={"floor"}
             style={`${"floor"}`}
-            linkTo="/deepening"
+            linkTo="/work"
             svg={<img src={imgfloor} alt="" className="imgplumbing"></img>}
           />
           <p className="titlework">Floor</p>
@@ -66,7 +66,7 @@ const Work = () => {
           <ButtonChoice
             choice={"accesories"}
             style={`${"accesories"}`}
-            linkTo="/deepening"
+            linkTo="/work"
             svg={<img src={imgtapis} alt="" className="imgplumbing"></img>}
           />
           <p className="titlework">Acessories</p>
@@ -75,7 +75,7 @@ const Work = () => {
           <ButtonChoice
             choice={"wc"}
             style={`${"wc"}`}
-            linkTo="/deepening"
+            linkTo="/work"
             svg={
               <img
                 src="https://cdn.manomano.com/images/images_products/820/T/53683_2.jpg"
@@ -87,9 +87,14 @@ const Work = () => {
           <p className="titlework">Toilets</p>
         </div>
       </div>
-      <div className="buttonnext">
+      <div className="buttonprev">
         <Link to="/">
           <button className="button">Prev</button>
+        </Link>
+      </div>
+      <div className="buttonnext">
+        <Link to="/deepening">
+          <button className="button">Next</button>
         </Link>
       </div>
     </main>

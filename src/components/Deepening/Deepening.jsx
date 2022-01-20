@@ -43,7 +43,7 @@ const Deepening = () => {
           <p className="titlework">Renovation</p>
         </div>
       </div>
-      <div className="buttonnext">
+      <div className="buttonprevdeepening">
         <Link to="/work">
           <button className="button">Prev</button>
         </Link>

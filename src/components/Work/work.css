@@ -80,10 +80,15 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.buttonnext{
-  padding-bottom: 20px;
+.buttonprev{
+  position: absolute;
+  padding-bottom: -20px;
   padding-left: 20px;
 
+}
+.buttonnext{
+  padding-bottom: 20px;
+  padding-left: 300px;
 }
 .imgplumbing{
   height: 100px;

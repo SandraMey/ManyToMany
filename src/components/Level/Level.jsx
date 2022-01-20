@@ -99,7 +99,7 @@ const Level = () => {
           <p className="titlecraft">Expert</p>
         </div>
       </div>
-      <div className="buttonnext">
+      <div className="buttonprevlevel">
         <Link to="/deepening">
           <button className="button">Prev</button>
         </Link>
