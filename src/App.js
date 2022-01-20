@@ -18,6 +18,7 @@ function App() {
         <Route path="/deepening" element={<Deepening />} />
         <Route path="/level" element={<Level />} />
         <Route path="/budget" element={<Budget />} />
+        <Route path="/products" element={<products />} />
       </Routes>
       <Footer />
     </div>

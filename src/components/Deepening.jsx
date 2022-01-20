@@ -16,7 +16,7 @@ const Deepening = () => {
           choice={'create'}
           style={`${"create"}`}
           linkTo='/level'
-          svg={<img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-documents-project-work-icongeek26-outline-colour-icongeek26-1.png" className='imgplumbing'></img>
+          svg={<img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-documents-project-work-icongeek26-outline-colour-icongeek26-1.png" alt="" className='imgplumbing'></img>
           }/>
         <p className='titlework'>Do It Yourself</p>
       </div>  
@@ -25,7 +25,7 @@ const Deepening = () => {
           choice={'renovation'}
           style={`${"renovation"}`}
           linkTo='/level'
-          svg={<img src="https://img.icons8.com/external-flat-juicy-fish/60/000000/external-diy-gears-and-cogs-flat-flat-juicy-fish.png" className='imgplumbing'></img>
+          svg={<img src="https://img.icons8.com/external-flat-juicy-fish/60/000000/external-diy-gears-and-cogs-flat-flat-juicy-fish.png" alt="" className='imgplumbing'></img>
           }/>
         <p className='titlework'>Renovation</p>
       </div>

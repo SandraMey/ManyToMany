@@ -1,5 +1,5 @@
-.budget{
-  background-color: #0C193A;
+.deepening{
+  background-color: #234AAD71;
   color: white;
   width: 100%;
 }
@@ -15,16 +15,18 @@ h1{
   padding: 50px;
   justify-items: center;
 }
-.WC{
+.smallbudget{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 1;
   grid-row: 1;
-  margin-bottom: 30px;
   clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
   height: 100px;
   width: 100px;
   background-color: #47B9B0
 }
-.insidewc{
+.smallbudget{
   clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
   top: 10px;
   left: 10px;
@@ -32,7 +34,18 @@ h1{
   bottom: 10px;
   background: #80E9E1;
 }
-.kitchen {
+.smallbudget:hover{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #1d3b885e;
+}
+.averagebudget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 2;
   grid-row: 1;
   clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
@@ -40,7 +53,7 @@ h1{
   width: 100px;
   background-color: #47B9B0
 }
-.insidekitchen{
+.averagebudget{
   clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
   top: 10px;
   left: 10px;
@@ -48,66 +61,47 @@ h1{
   bottom: 10px;
   background: #80E9E1;
 }
-.livingroom {
-  grid-column: 1;
-  grid-row: 2;
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.insidelivingroom{
+.averagebudget:hover{
   clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
   top: 10px;
   left: 10px;
   right: 10px;
   bottom: 10px;
-  background: #80E9E1;
-}
-.garage {
-  grid-column: 1;
-  grid-row: 3;
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.insidegarage{
-  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  background: #80E9E1;
+  background: #1d3b885e;
 }
 
-.garden {
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.insidegarden{
-  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  background: #80E9E1;
-}
-.dinnerroom {
+.largebudget{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: 2;
-  grid-row: 2;
+  grid-row: 1;
   clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
   height: 100px;
   width: 100px;
   background-color: #47B9B0
 }
-.insidedinnerroom{
+.largebudget{
   clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
   top: 10px;
   left: 10px;
   right: 10px;
   bottom: 10px;
   background: #80E9E1;
+}
+.largebudget:hover{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #1d3b885e;
+}
+
+.buttonconfirm{
+  display: flex;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
 }

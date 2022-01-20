@@ -1,5 +1,4 @@
 import React from 'react';
-import ButtonChoice from './ButtonChoice/buton';
 import { Link } from 'react-router-dom';
 
 import './level.css';
@@ -60,7 +59,7 @@ const Level = () => {
     </div>  
   </div>
   <div className="buttonnext">
-    <a href='/work'>
+    <a href='/deepening'>
       <button className="button">Prev</button>
     </a>
   </div>
