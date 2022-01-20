@@ -3,6 +3,7 @@ import ButtonChoice from './ButtonChoice/buton';
 import imgplumbing from '../assets/plumbing.jpg';
 import imgtapis from '../assets/tapis.webp';
 import imgfloor from '../assets/floor.jpg'
+import { Link } from 'react-router-dom';
 import './work.css';
 
 const Work = () => {
@@ -70,9 +71,9 @@ const Work = () => {
         </div>  
       </div>
       <div className="buttonnext">
-        <a href='/'>
+        <Link to='/'>
           <button className="button">Prev</button>
-        </a>
+        </Link>
       </div>
   </main>
   )
