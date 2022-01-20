@@ -1,5 +1,5 @@
 import React from 'react';
-import ButtonChoice from './ButtonChoice/buton';
+import ButtonChoice from '../ButtonChoice/buton';
 import { Link } from 'react-router-dom';
 
 import './deepening.css';

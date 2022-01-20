@@ -1,10 +1,10 @@
 import 'bootswatch/dist/lux/bootstrap.css'
-import Zone from './components/Zone';
-import Header from './components/Header';
-import Work from './components/Work';
-import Deepening from './components/Deepening';
-import Budget from './components/Budget';
-import Level from './components/Level';
+import Zone from './components/Zone/Zone';
+import Header from './components/Header/Header';
+import Work from './components/Work/Work';
+import Deepening from './components/Deepening/Deepening';
+import Budget from './components/Budget/Budget';
+import Level from './components/Level/Level';
 import Footer from './components/Footer/Footer';
 import { Routes, Route } from 'react-router-dom';
 import ProductsContextProvider from './contexts/ProductsContext';
