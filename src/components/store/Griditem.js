@@ -3,11 +3,14 @@ import { Link } from "react-router-dom";
 
 import { useCart } from "../../hooks/useCart";
 import { formatNumber } from "../../helpers/utils";
+import { useProducts } from "../../hooks/useProducts";
 
 import "./../cart/carousselle.css";
 
 const Griditems = ({ product }) => {
   const { addProduct, cartItems, increase } = useCart();
+  const { showproducts,setshowproducts } = useProducts();
+  
 
   const isInCart = (product) => {
     return !!cartItems.find((item) => item.id === product.id);
@@ -38,6 +41,7 @@ const Griditems = ({ product }) => {
             {isInCart(product) && (
               <button
                 onClick={() => increase(product)}
+                onClick={() => setshowproducts(!showproducts)}
                 className="btn btn-outline-primary btn-sm"
               >
                 Add more
@@ -46,6 +50,7 @@ const Griditems = ({ product }) => {
 
             {!isInCart(product) && (
               <button
+              onClick={() => setshowproducts(false)}
                 onClick={() => addProduct(product)}
                 className="btn btn-primary btn-sm"
               >

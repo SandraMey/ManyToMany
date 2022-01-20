@@ -26,7 +26,7 @@ const ProductsGrid = () => {
         ProductList 1
       </div>
       <div className={styles.p__grid}>
-        {products2.map((product2) => (
+        {products.map((product2) => (
           <ProductItem key={product2.id} product={product2} />
         ))}
       </div>

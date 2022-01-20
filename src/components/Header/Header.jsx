@@ -3,7 +3,7 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <header>
+    <header id="header">
       <div className="logo">
         <svg
           xmlns="http://www.w3.org/2000/svg"

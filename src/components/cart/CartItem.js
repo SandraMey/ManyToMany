@@ -6,16 +6,20 @@ import {
   MinusCircleIcon,
   TrashIcon,
 } from "../../components/icons";
+import { useProducts } from "../../hooks/useProducts";
+
 
 const CartItem = ({ product }) => {
-  const { increase, decrease, removeProduct } = useCart();
-
+  const { increase, decrease, removeProduct} = useCart();
+  const { showproducts,setshowproducts } = useProducts();
+  console.log(showproducts)
+ 
   return (
     <div className="row no-gutters py-2">
       <div className="col-sm-2 p-2">
         <img
           alt={product.name}
-          style={{ margin: "0 auto", maxHeight: "50px" }}
+          style={{ margin: "0 auto", maxHeight: "600px" }}
           src={product.photo}
           className="img-fluid d-block"
         />
@@ -23,11 +27,15 @@ const CartItem = ({ product }) => {
       <div className="col-sm-4 p-2">
         <h5 className="mb-1">{product.name}</h5>
         <p className="mb-1">Price: {formatNumber(product.price)} </p>
-      </div>
-      <div className="col-sm-2 p-2 text-center ">
-        <p className="mb-0">Qty: {product.quantity}</p>
+        <p className="mb-1">Qty: {product.quantity}</p>
       </div>
       <div className="col-sm-4 p-2 text-right">
+          <button
+            onClick={() => setshowproducts(!showproducts)}
+            className="btn btn-more btn-sm mr-2 mb-1"
+          >
+            More product
+          </button>
         <button
           onClick={() => increase(product)}
           className="btn btn-primary btn-sm mr-2 mb-1"

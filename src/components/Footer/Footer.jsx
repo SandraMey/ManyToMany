@@ -5,7 +5,8 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <img src={imgFooter} alt="" />
+      <a href="#header"><img src={imgFooter} alt="" /></a>
+      
     </footer>
   );
 };

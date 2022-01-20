@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 import { useCart } from "../../hooks/useCart";
 import { formatNumber } from "../../helpers/utils";
 import { useProducts } from "../../hooks/useProducts";
-import ProductItem from "./../store/ProductItem";
 import CardProducts from "./../cart/CartProducts";
-import Griditems from "./../store/Griditem";
-
 import "./carousselle.css";
+import Griditems from "./../store/Griditem";
+import ProductItem from "./../store/ProductItem";
+
 
 const Cart = () => {
   const { total, cartItems, itemCount, clearCart, checkout, handleCheckout } =
     useCart();
 
-  const { products2 } = useProducts();
+    const { products2,showproducts } = useProducts();
 
   return (
     <div title="Cart" description="This is the Cart page">
@@ -25,15 +25,14 @@ const Cart = () => {
           <h1>ProductsKit</h1>
           <p>This is the Products Kit list selected for you.</p>
         </div>
-        {/* ****************************************************************** */}
-
-        {/* ***************************************************************** */}
+        <div className={showproducts ? "show" : "showhidden"}>
+        <p>Products related to this article</p>
         <div className="le-grid">
           {products2.map((product) => (
             <Griditems key={product.id} product={product} />
           ))}
         </div>
-
+        </div>
         <div className="row no-gutters justify-content-center">
           <div className="col-sm-9 p-3">
             {cartItems.length > 0 ? (
@@ -67,7 +66,7 @@ const Cart = () => {
                     className="btn btn-primary mb-2"
                     onClick={handleCheckout}
                   >
-                    CHECKOUT
+                    ADD TO CART
                   </button>
                   <button
                     type="button"
