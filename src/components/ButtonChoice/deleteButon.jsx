@@ -1,4 +1,4 @@
-import './deletebuton.css';
+import "./deletebuton.css";
 
 const DeleteButon = ({ handledelete }) => {
   return (

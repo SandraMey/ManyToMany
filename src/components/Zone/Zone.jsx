@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import ButtonChoice from '../ButtonChoice/buton';
-import garage from '../../assets/garage-svgrepo-com.svg';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import ButtonChoice from "../ButtonChoice/buton";
+import garage from "../../assets/garage-svgrepo-com.svg";
 
-import './zone.css';
+import "./zone.css";
 
 const Zone = () => {
-  
   return (
     <main className="zone">
       <h1>In which area do you want to craft ?</h1>
@@ -16,8 +15,8 @@ const Zone = () => {
       <div className="containerzone">
         <div className="containertitle">
           <ButtonChoice
-            choice={'bathroom'}
-            style={`${'insidebathroom'}`}
+            choice={"bathroom"}
+            style={`${"insidebathroom"}`}
             linkTo="/work"
             svg={
               <svg
@@ -52,8 +51,8 @@ const Zone = () => {
         </div>
         <div className="containertitle">
           <ButtonChoice
-            choice={'kitchen'}
-            style={`${'insidekitchen'}`}
+            choice={"kitchen"}
+            style={`${"insidekitchen"}`}
             linkTo="/work"
             svg={
               <svg
@@ -88,8 +87,8 @@ const Zone = () => {
         </div>
         <div className="containertitle">
           <ButtonChoice
-            choice={'livingroom'}
-            style={`${'insidelivingroom'}`}
+            choice={"livingroom"}
+            style={`${"insidelivingroom"}`}
             linkTo="/work"
             svg={
               <svg
@@ -117,8 +116,8 @@ const Zone = () => {
         </div>
         <div className="containertitle">
           <ButtonChoice
-            choice={'dinnerroom'}
-            style={`${'insidedinnerroom'}`}
+            choice={"dinnerroom"}
+            style={`${"insidedinnerroom"}`}
             linkTo="/work"
             svg={
               <svg
@@ -160,8 +159,8 @@ const Zone = () => {
         </div>
         <div className="containertitle">
           <ButtonChoice
-            choice={'garden'}
-            style={`${'insidegarden'}`}
+            choice={"garden"}
+            style={`${"insidegarden"}`}
             linkTo="/work"
             svg={
               <svg

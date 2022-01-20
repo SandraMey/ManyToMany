@@ -1,14 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import './work.css';
+import "./work.css";
 
 const Work = () => {
-
   return (
-    <main className='work'>
+    <main className="work">
       <h1> a que coucou </h1>
-  </main>
-  )
+    </main>
+  );
 };
 
 export default Work;

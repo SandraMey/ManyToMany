@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './budget.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./budget.css";
 
 const Budget = () => {
   return (

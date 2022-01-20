@@ -1,11 +1,13 @@
-import React from 'react';
-import imgFooter from '../../assets/footermano.png'
-import './footer.css'
+import React from "react";
+import imgFooter from "../../assets/footermano.png";
+import "./footer.css";
 
 const Footer = () => {
-  return <footer className="footer">
+  return (
+    <footer className="footer">
       <img src={imgFooter} alt="" />
-  </footer>;
+    </footer>
+  );
 };
 
-export default Footer
+export default Footer;
