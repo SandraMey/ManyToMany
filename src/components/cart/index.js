@@ -1,14 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import CartProducts from './CartProducts';
 import { useCart } from '../../hooks/useCart';
 import { formatNumber } from '../../helpers/utils';
+import { useProducts } from '../../hooks/useProducts';
+import ProductItem from './../store/ProductItem';
+import CardProducts from './../cart/CartProducts'
+import Griditems from './../store/Griditem'
+
+
+import "./carousselle.css"
 
 const Cart = () => {
-  const { total, cartItems, itemCount, clearCart, checkout, handleCheckout } =
-    useCart();
+  const { total, cartItems, itemCount, clearCart, checkout, handleCheckout} =useCart();
+
+  const {products2 } = useProducts()
 
   return (
+
     <div title="Cart" description="This is the Cart page">
       <div>
         <Link to="/shop">
@@ -18,11 +26,24 @@ const Cart = () => {
           <h1>ProductsKit</h1>
           <p>This is the Products Kit list selected for you.</p>
         </div>
+        {/* ****************************************************************** */}
+
+
+        {/* ***************************************************************** */}
+        <div className="le-grid">
+
+
+
+    {products2.map((product) => <Griditems key={product.id} product={product}/>)}
+
+
+</div>
+
 
         <div className="row no-gutters justify-content-center">
           <div className="col-sm-9 p-3">
             {cartItems.length > 0 ? (
-              <CartProducts />
+              <CardProducts />
             ) : (
               <div className="p-3 text-center text-muted">
                 Your cart is empty
@@ -67,7 +88,8 @@ const Cart = () => {
           )}
         </div>
       </div>
-    </div>
+      </div>
+   
   );
 };
 

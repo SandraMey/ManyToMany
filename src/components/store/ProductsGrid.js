@@ -5,7 +5,7 @@ import { useProducts } from '../../hooks/useProducts';
 
 const ProductsGrid = () => {
 
-    const { products } = useProducts()
+    const { products,products2 } = useProducts()
 
     return ( 
         <div className={styles.p__container}>
@@ -20,16 +20,26 @@ const ProductsGrid = () => {
                         <input type="text" name="" placeholder="Search product" className="form-control" id=""/>
                     </div>
                 </div>
+                ProductList 1
             </div>
             <div className={styles.p__grid}>
 
                 {
-                    products.map(product => (
-                        <ProductItem key={product.id} product={product}/>
+                    products2.map(product2 => (
+                        <ProductItem key={product2.id} product={product2}/>
                     ))
                 }
 
             </div>
+            <h1>ProductList 2</h1>
+
+            {
+                    products2.map(product => (
+                        <ProductItem key={product.id} product={product}/>
+                    ))
+                }
+
+
             <div className={styles.p__footer}>
 
             </div>
