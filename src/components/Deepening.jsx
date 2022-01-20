@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonChoice from './ButtonChoice/buton';
+import { Link } from 'react-router-dom';
 
 import './deepening.css';
 
@@ -31,9 +32,9 @@ const Deepening = () => {
       </div>
     </div>
     <div className="buttonnext">
-      <a href='/work'>
+      <Link to='/work'>
         <button className="button">Prev</button>
-      </a>
+      </Link>
     </div>
 </main>
 )};

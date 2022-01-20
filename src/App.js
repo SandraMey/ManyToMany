@@ -26,7 +26,7 @@ function App() {
         <Route path="/level" element={<Level />} />
         <Route path="/budget" element={<Budget />} />
         <Route path="/products" element={<ProductsKit />} />
-        <Route path="/store" element={<Store />} />
+        <Route path="/shop" element={<Store />} />
       </Routes>
       <Footer />
       </CartContextProvider>
