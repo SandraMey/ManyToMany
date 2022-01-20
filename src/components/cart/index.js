@@ -1,22 +1,21 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { useCart } from '../../hooks/useCart';
-import { formatNumber } from '../../helpers/utils';
-import { useProducts } from '../../hooks/useProducts';
-import ProductItem from './../store/ProductItem';
-import CardProducts from './../cart/CartProducts'
-import Griditems from './../store/Griditem'
+import React from "react";
+import { Link } from "react-router-dom";
+import { useCart } from "../../hooks/useCart";
+import { formatNumber } from "../../helpers/utils";
+import { useProducts } from "../../hooks/useProducts";
+import ProductItem from "./../store/ProductItem";
+import CardProducts from "./../cart/CartProducts";
+import Griditems from "./../store/Griditem";
 
-
-import "./carousselle.css"
+import "./carousselle.css";
 
 const Cart = () => {
-  const { total, cartItems, itemCount, clearCart, checkout, handleCheckout} =useCart();
+  const { total, cartItems, itemCount, clearCart, checkout, handleCheckout } =
+    useCart();
 
-  const {products2 } = useProducts()
+  const { products2 } = useProducts();
 
   return (
-
     <div title="Cart" description="This is the Cart page">
       <div>
         <Link to="/shop">
@@ -28,17 +27,12 @@ const Cart = () => {
         </div>
         {/* ****************************************************************** */}
 
-
         {/* ***************************************************************** */}
         <div className="le-grid">
-
-
-
-    {products2.map((product) => <Griditems key={product.id} product={product}/>)}
-
-
-</div>
-
+          {products2.map((product) => (
+            <Griditems key={product.id} product={product} />
+          ))}
+        </div>
 
         <div className="row no-gutters justify-content-center">
           <div className="col-sm-9 p-3">
@@ -88,8 +82,7 @@ const Cart = () => {
           )}
         </div>
       </div>
-      </div>
-   
+    </div>
   );
 };
 
