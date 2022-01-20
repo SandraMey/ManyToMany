@@ -5,7 +5,7 @@ import { useCart } from '../../hooks/useCart';
 import { formatNumber } from '../../helpers/utils';
 
 const Cart = () => {
-  const { total, cartItems, itemCount, clearCart, checkout, handleCheckout } =
+  const { total, cartItems, itemCount, clearCart, checkout, handleCheckout, increase  } =
     useCart();
 
   return (
@@ -17,6 +17,32 @@ const Cart = () => {
         <div className="text-center mt-5">
           <h1>ProductsKit</h1>
           <p>This is the Products Kit list selected for you.</p>
+          <div>
+            {cartItems
+              .filter(
+                (element) =>
+                  element.id === 15 ||
+                  element.id === 11 ||
+                  element.id === 12 ||
+                  element.id === 13 ||
+                  element.id === 14
+              )
+              .map((d) => {
+                return (
+                  <div>
+                    <p>{d.name}</p>
+                    <p>{d.price}</p>
+                    <img src={d.photo} alt=""></img>
+                    <button
+                      onClick={() => increase(d)}
+                      className="btn btn-primary btn-sm mr-2 mb-1"
+                    >
+                      add
+                    </button>
+                  </div>
+                );
+              })}
+          </div>
         </div>
 
         <div className="row no-gutters justify-content-center">
@@ -57,6 +83,7 @@ const Cart = () => {
                   <button
                     type="button"
                     className="btn btn-outlineprimary btn-sm"
+
                     onClick={clearCart}
                   >
                     CLEAR

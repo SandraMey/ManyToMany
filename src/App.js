@@ -11,25 +11,27 @@ import ProductsContextProvider from './contexts/ProductsContext';
 import CartContextProvider from './contexts/CartContext';
 import Store from './components/store';
 import ProductsKit from './components/cart';
+import Testmap from './components/testmap';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-    <ProductsContextProvider>
-    <CartContextProvider>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Zone />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/deepening" element={<Deepening />} />
-        <Route path="/level" element={<Level />} />
-        <Route path="/budget" element={<Budget />} />
-        <Route path="/products" element={<ProductsKit />} />
-        <Route path="/shop" element={<Store />} />
-      </Routes>
-      <Footer />
-      </CartContextProvider>
+      <ProductsContextProvider>
+        <CartContextProvider>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Zone />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/deepening" element={<Deepening />} />
+            <Route path="/level" element={<Level />} />
+            <Route path="/budget" element={<Budget />} />
+            <Route path="/products" element={<ProductsKit />} />
+            <Route path="/testmap" element={<Testmap />} />
+            <Route path="/shop" element={<Store />} />
+          </Routes>
+          <Footer />
+        </CartContextProvider>
       </ProductsContextProvider>
     </div>
   );
