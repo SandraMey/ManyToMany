@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ButtonChoice from './ButtonChoice/buton';
-import garage from '../assets/garage-svgrepo-com.svg';
+import ButtonChoice from '../ButtonChoice/buton';
+import garage from '../../assets/garage-svgrepo-com.svg';
 
 import './zone.css';
 
