@@ -50,7 +50,7 @@ const Cart = () => {
             )}
           </div>
           <Link to="/shop">
-            <button className="buttonadd"  >Add More to your PremadeKit</button>
+            <button className="buttonadd">Add More to your PremadeKit</button>
           </Link>
           {cartItems.length > 0 && (
             <div className="col-sm-3 p-3">

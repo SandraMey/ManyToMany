@@ -52,7 +52,7 @@ const CartItem = ({ product }) => {
           </button>
         )}
 
-        {product.quantity === 1 && (
+        {(product.quantity === 1 )||(product.quantity === 0 ) && (
           <button
             onClick={() => removeProduct(product)}
             className="btn btn-danger btn-sm mb-1"
