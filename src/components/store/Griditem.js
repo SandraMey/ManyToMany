@@ -18,14 +18,13 @@ const Griditems = ({ product }) => {
 
   return (
     <>
-      <div className="propos1 bestchoic">
-        <div className="container-Infos-Bestchoic"></div>
+      <div key={product.id} className="propos1 bestchoic">
         <div className="card card-body">
           <img
             style={{
               display: "block",
               margin: "0 auto 10px",
-              maxHeight: "200px",
+              maxHeight: "220px",
             }}
             className="img-fluid"
             src={product.photo + "?v=" + product.id}
@@ -41,7 +40,7 @@ const Griditems = ({ product }) => {
             {isInCart(product) && (
               <button
                 onClick={() => increase(product)}
-                onClick={() => setshowproducts(!showproducts)}
+               onClick={() => setshowproducts(!showproducts)}
                 className="btn btn-outline-primary btn-sm"
               >
                 Add more
@@ -50,7 +49,7 @@ const Griditems = ({ product }) => {
 
             {!isInCart(product) && (
               <button
-              onClick={() => setshowproducts(false)}
+                onClick={() => setshowproducts(!showproducts)}
                 onClick={() => addProduct(product)}
                 className="btn btn-primary btn-sm"
               >

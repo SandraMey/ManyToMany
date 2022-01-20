@@ -14,19 +14,19 @@ const carrousselDouche = [
     {
       id: 13,
       name: "COLONNE DE DOUCHE",
-      price: "279.00€",
+      price: 279.00,
       photo: "https://cdn.manomano.com/images/images_products/108283/P/13759619_1.jpg"
     },
     {
       id: 14,
       name: "Cabine hydromassante SELIA ",
-      price: "598.00€",
+      price: 598.00,
       photo: "https://cdn.manomano.com/images/images_products/1220812/T/18047140_1.jpg"
     },
     {
       id: 15,
       name: "Cabine de douche intégrale Malta",
-      price: "849.00€",
+      price: 849.00,
       photo: "https://cdn.manomano.com/images/images_products/272965/T/23754064_2.jpg"
     },
   ];

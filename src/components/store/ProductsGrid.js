@@ -23,14 +23,14 @@ const ProductsGrid = () => {
             />
           </div>
         </div>
-        ProductList 1
+        <h1>Product List 1</h1>
       </div>
       <div className={styles.p__grid}>
         {products.map((product2) => (
           <ProductItem key={product2.id} product={product2} />
         ))}
       </div>
-      <h1>ProductList 2</h1>
+      <h1>Product List 2</h1>
 
       {products2.map((product) => (
         <ProductItem key={product.id} product={product} />

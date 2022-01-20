@@ -11,8 +11,19 @@ h1 {
   }
 .showhidden{
   visibility: hidden;
-  margin-top: -500px;
+  margin-top: -450px;
 }  
+
+.buttonadd{
+  background-color: #1d3b88;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 20px;
+  border: 2px solid #47B9B0;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
   .card-body {
     flex: 1 1 auto;

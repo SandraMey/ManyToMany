@@ -18,11 +18,8 @@ const Cart = () => {
   return (
     <div title="Cart" description="This is the Cart page">
       <div>
-        <Link to="/shop">
-          <button className="button">Add More to your PremadeKit</button>
-        </Link>
-        <div className="text-center mt-5">
-          <h1>ProductsKit</h1>
+        <div className="text-center mt-4">
+          <h1>Your Products Kit</h1>
           <p>This is the Products Kit list selected for you.</p>
         </div>
         <div className={showproducts ? "show" : "showhidden"}>
@@ -52,6 +49,9 @@ const Cart = () => {
               </div>
             )}
           </div>
+          <Link to="/shop">
+            <button className="buttonadd"  >Add More to your PremadeKit</button>
+          </Link>
           {cartItems.length > 0 && (
             <div className="col-sm-3 p-3">
               <div className="card card-body">
@@ -66,7 +66,7 @@ const Cart = () => {
                     className="btn btn-primary mb-2"
                     onClick={handleCheckout}
                   >
-                    ADD TO CART
+                    BUY
                   </button>
                   <button
                     type="button"
