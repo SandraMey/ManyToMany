@@ -59,9 +59,9 @@ const Level = () => {
     </div>  
   </div>
   <div className="buttonnext">
-    <a href='/deepening'>
+    <Link to='/deepening'>
       <button className="button">Prev</button>
-    </a>
+    </Link>
   </div>
 </main>
 )};
