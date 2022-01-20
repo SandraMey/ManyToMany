@@ -34,6 +34,14 @@
     bottom: 10px;
     background: #80E9E1;
   }
+  .beginner:hover{
+    clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #1d3b885e;
+  }
   .intermediate {
     display: flex;
     align-items: center;
@@ -52,6 +60,14 @@
     right: 10px;
     bottom: 10px;
     background: #80E9E1;
+  }
+  .intermediate:hover{
+    clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #1d3b885e;
   }
 
   .expert{
@@ -73,6 +89,15 @@
     bottom: 10px;
     background: #80E9E1;
   }
+  .expert:hover{
+    clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #1d3b885e;
+  }
+
 
   .buttonprevlevel{
     padding-bottom: 20px;

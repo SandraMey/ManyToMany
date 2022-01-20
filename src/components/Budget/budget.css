@@ -6,6 +6,7 @@
 h1{
   display: flex;
   text-align: center;
+  justify-content: center;
   padding-top: 10px;
 }
 .container{
