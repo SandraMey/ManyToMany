@@ -1,131 +1,107 @@
-.zone{
-  background-color: #E9EFFF;
-  color: #0C193A;
+.deepening{
+  background-color: #234AAD71;
+  color: white;
   width: 100%;
 }
 h1{
   display: flex;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
-.page{
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  margin-right: 20px;
-  height: 15px;
-}
-.containerzone{
+.container{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  padding: 30px;
+  padding: 50px;
   justify-items: center;
 }
-.bathroom{
-  grid-column: 1;
-  grid-row: 1;
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.insidebathroom{
-  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  background: #80E9E1;
-}
-.kitchen {
-  grid-column: 2;
-  grid-row: 1;
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.insidekitchen{
-  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  background: #80E9E1;
-}
-.livingroom {
-  grid-column: 1;
-  grid-row: 2;
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.insidelivingroom{
-  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  background: #80E9E1;
-}
-.garage {
-  grid-column: 1;
-  grid-row: 3;
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.insidegarage{
-  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  background: #80E9E1;
-}
-
-.garden {
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.insidegarden{
-  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  background: #80E9E1;
-}
-.dinnerroom {
-  grid-column: 2;
-  grid-row: 2;
-  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
-  height: 100px;
-  width: 100px;
-  background-color: #47B9B0
-}
-.insidedinnerroom{
-  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  background: #80E9E1;
-}
-.titlecraft{
-  text-align: center;
-  margin: 10px 0px 10px -5px
-}
-
-.containertitle{
-  text-align: center;
+.smallbudget{
+  display: flex;
   align-items: center;
   justify-content: center;
+  grid-column: 1;
+  grid-row: 1;
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.smallbudget{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
+.smallbudget:hover{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #1d3b885e;
+}
+.averagebudget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 1;
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.averagebudget{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
+.averagebudget:hover{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #1d3b885e;
 }
 
+.largebudget{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 1;
+  clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+  height: 100px;
+  width: 100px;
+  background-color: #47B9B0
+}
+.largebudget{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #80E9E1;
+}
+.largebudget:hover{
+  clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #1d3b885e;
+}
 
+.buttonconfirm{
+  display: flex;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+}

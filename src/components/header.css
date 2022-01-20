@@ -14,12 +14,13 @@
     padding: 5px 20px;
     border: 2px solid #47B9B0;
     border-radius: 10px;
+    cursor: pointer;
 }
 h1{
     padding-bottom: 5%;
 }
 
-p{
+.headerintro{
     text-align: justify;
     margin: 15px;
 }

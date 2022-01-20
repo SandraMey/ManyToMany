@@ -1,0 +1,99 @@
+.work{
+    background-color: #235DF933;
+    color: #0C193A;
+    width: 100%;
+  }
+  h1{
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .containerwork{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    justify-items: center;
+  }
+  .wc{
+    grid-column: 1;
+    grid-row: 1;
+    clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+    height: 100px;
+    width: 100px;
+    background-color: #47B9B0
+  }
+  .shower {
+    grid-column: 2;
+    grid-row: 1;
+    clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+    height: 100px;
+    width: 100px;
+    background-color: #47B9B0
+  }
+  .spa {
+    grid-column: 1;
+    grid-row: 2;
+    clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+    height: 100px;
+    width: 100px;
+    background-color: #47B9B0
+  }
+  .SPA{
+    clip-path: polygon(25% 8%, 70% 5%, 95% 55%, 69% 91%, 20% 95%, 5% 45%);
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #80E9E1;
+  }
+  .floor {
+    grid-column: 1;
+    grid-row: 3;
+    clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+    height: 100px;
+    width: 100px;
+    background-color: #47B9B0
+  }
+  .accesories {
+    clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+    height: 100px;
+    width: 100px;
+    background-color: #47B9B0
+  }
+  .faucets {
+    grid-column: 2;
+    grid-row: 2;
+    clip-path: polygon(22% 4%, 72% 0.9%, 100% 55%, 72% 95%, 17% 100%, 0% 45%);
+    height: 100px;
+    width: 100px;
+    background-color: #47B9B0 
+  }
+
+  .button {
+    background-color: #1d3b88;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid #47B9B0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttonnext{
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+}
+.imgplumbing{
+  height: 100px;
+  width: 100px;
+}
+
+.titlework{
+  text-align: center;
+  margin: 10px 0px 10px -5px
+}
+  
+  
+  
