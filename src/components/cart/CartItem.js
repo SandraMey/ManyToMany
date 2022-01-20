@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { useCart } from '../../hooks/useCart';
 import { formatNumber } from '../../helpers/utils';
 import { PlusCircleIcon, MinusCircleIcon, TrashIcon } from '../../components/icons';
