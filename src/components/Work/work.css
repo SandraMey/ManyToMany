@@ -80,15 +80,12 @@
     border-radius: 10px;
     cursor: pointer;
 }
-.buttonprev{
-  position: absolute;
-  padding-bottom: -20px;
-  padding-left: 20px;
-
-}
-.buttonnext{
+.buttonconfirm{
+  display: flex;
   padding-bottom: 20px;
-  padding-left: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
 }
 .imgplumbing{
   height: 100px;
@@ -100,9 +97,10 @@
   margin: 10px 0px 10px -5px
 }
 
-.containertitle:hover{
+.hovertitlework{
   background: #1d3b885e;
   border-radius: 20px;
+  margin-top: 10px;
 }
   
   
