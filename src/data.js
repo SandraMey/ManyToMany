@@ -4,123 +4,213 @@ export const data = [
       name: "Shattaf Douche Shower Head Toilet Bidet Brass Chrome Sprayer Isolation Valve",
       price: 39.11,
       photo: "https://cdn.manomano.com/images/images_products/208609/P/4866918_1.jpg",
+      rate:500,
     },
     {
       id: 2,
       name: "Corner tremped glass",
       price: 27.92,
-      photo: "https://cdn.manomano.com/images/images_products/6132369/P/26215850_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/6132369/P/26215850_1.jpg",
+      rate:200,
     },
     {
       id: 3,
       name: "Shower Heads",
       price: 279,
-      photo: "https://cdn.manomano.com/images/images_products/108283/P/13759619_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/108283/P/13759619_1.jpg",
+      rate:600,
     },
     {
       id: 4,
       name: "Ceramic Floor Tile",
       price: 31,
-      photo: "https://cdn.manomano.com/images/images_products/555685/P/17006775_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/555685/P/17006775_1.jpg",
+      rate:240,
     },
     {
       id: 5,
       name: "Cordless Hammer Drill Kit",
       price: 56.85,
-      photo: "https://cdn.manomano.com/images/images_products/7666072/P/13575361_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/7666072/P/13575361_1.jpg",
+      rate:188,
     },
     {
       id: 6,
       name: "Magnetic Tape Measure 10m",
       price: 12,
-      photo: "https://cdn.manomano.com/images/images_products/12/P/8962106_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/12/P/8962106_1.jpg",
+      rate:188,
     },
     {
       id: 7,
       name: "Spirit Level",
       price: 21.10,
-      photo: "https://cdn.manomano.com/images/images_products/6145579/P/24134493_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/6145579/P/24134493_1.jpg",
+      rate:190,
     },
     {
       id: 8,
       name: "Claw Hammer",
       price: 13.99,
-      photo: "https://cdn.manomano.com/images/images_products/203447/P/8505228_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/203447/P/8505228_1.jpg",
+      rate:190,
     },
     {
       id: 9,
       name: "Shower enclosure 90X90",
       price: 299.16,
-      photo: "https://cdn.manomano.com/images/images_products/898905/P/14609254_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/898905/P/14609254_1.jpg",
+      rate:300,
     },
     {
       id: 10,
       name: "Washbasin with overflow, Vidage sink pop-up, universal dump, chrome",
       price: 12,
-      photo: "https://cdn.manomano.com/images/images_products/208609/P/20445687_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/208609/P/20445687_1.jpg",
+      rate:700,
     },
     {
       id: 11,
       name: "shower enclosure",
       price: 257.00,
       photo: "https://cdn.manomano.com/images/images_products/1571977/T/3581107_1.jpg",
+      rate:300,
     },
     {
       id: 12,
       name: "shower enclosure BRIA 100X090CM",
       price: 459.00,
-      photo: "https://cdn.manomano.com/images/images_products/1220812/T/10100883_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/1220812/T/10100883_1.jpg",
+      rate:150,
     },
     {
       id: 13,
       name: "Swiss Aqua Technologies Shower column",
       price: 279.00,
-      photo: "https://cdn.manomano.com/images/images_products/108283/P/13759619_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/108283/P/13759619_1.jpg",
+      rate:180,
     },
     {
       id: 14,
       name: "Hydro massage cabin SELIA ",
       price: 598.00,
-      photo: "https://cdn.manomano.com/images/images_products/1220812/T/18047140_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/1220812/T/18047140_1.jpg",
+      rate:240,
     },
     {
       id: 15,
       name: "Integral shower enclosure Malta",
       price: 849.00,
-      photo: "https://cdn.manomano.com/images/images_products/272965/T/23754064_2.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/272965/T/23754064_2.jpg",
+      rate:340,
+    },
+    {
+      id: 16,
+      name: "Integral shower enclosure Malta",
+      price: 849.00,
+      photo: "https://cdn.manomano.com/pommeau-de-douche-kit-ensemble-pommeau-douche-pour-lavabo-avce-tuyau-telescopique-P-16821810-44848297_1.jpg",
+      rate:133,
+    },
+    {
+      id: 17,
+      name: "Integral shower enclosure Malta",
+      price: 849.00,
+      photo: "https://cdn.manomano.com/images/images_products/1245992/P/29968113_1.jpg",
+      rate:129,
+    },
+    {
+      id: 18,
+      name: "Integral shower enclosure Malta",
+      price: 849.00,
+      photo: "https://halc.iadvize.com/storage.php?type=local&n=1&o=https://www.manomano.fr",
+      rate:159,
+    },
+    {
+      id: 19,
+      name: "Integral shower enclosure Malta",
+      price: 849.00,
+      photo: "https://cdn.manomano.com/pommeau-de-douche-kit-ensemble-pommeau-douche-pour-lavabo-avce-tuyau-telescopique-P-16821810-44848297_1.jpg",
+      rate:129,
+    },
+    {
+      id: 20,
+      name: "Modern Shower Mixer with Waterfall Tap Kit Riser Rail Hose Chrome Twin Heads",
+      price: 849.00,
+      photo: "https://cdn.manomano.com/images/images_products/4029359/L/23636665_1.jpg",
+      rate:199,
     },
   ];
 
   export const data2 = [
     {
-      id: 16,
+      id: 21,
       name: "transparent corner shower enclosure",
       price: 257.00,
       photo: "https://cdn.manomano.com/images/images_products/1571977/T/3581107_1.jpg",
+      rate:20,
     },
     {
-      id: 17,
+      id: 22,
       name: "shower enclosure BRIA 100X090CM",
       price: 459.00,
-      photo: "https://cdn.manomano.com/images/images_products/1220812/T/10100883_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/1220812/T/10100883_1.jpg",
+      rate:2,
     },
     {
-      id: 18,
+      id: 23,
       name: "Shower column",
       price: 279.00,
-      photo: "https://cdn.manomano.com/images/images_products/108283/P/13759619_1.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/108283/P/13759619_1.jpg",
+      rate:15,
     },
     {
-      id: 19,
-      name: "Hydro massage cabin SELIA ",
+      id: 24,
+      name: "Bathroom Vanity Wash Basin Sink Countertop Oval Curved White Modern 410 x 330mm",
       price: 598.00,
-      photo: "https://cdn.manomano.com/images/images_products/1220812/T/18047140_1.jpg"
+      photo: "https://cdn.manomano.com/bathroom-vanity-wash-basin-sink-countertop-rectangular-1-th-modern-505-x-350mm-P-4029359-12024019_1.jpg",
+      rate:40,
     },
     {
-      id: 20,
+      id: 25,
+      name: "Cheap Bathroom Suite 1700 Straight Bath Toilet Basin Tap Shower",
+      price: 849.00,
+      photo: "https://cdn.manomano.com/images/images_products/4029359/L/8756054_1.jpg",
+      rate:9,
+    },
+    {
+      id: 26,
+      name: "ELEGANT 800 x 500mm Backlit LED Illuminated Bathroom Mirror with Light Sensor + Demister",
+      price: 249.00,
+      photo: "https://cdn.manomano.com/images/images_products/6078297/L/12324289_1.jpg",
+      rate:12,
+    },
+    {
+      id: 27,
+      name: "600mm Modern Grey Freestanding Bathroom Sink and Cabinet Vanity Unit Doors",
+      price: 849.00,
+      photo: "https://cdn.manomano.com/images/images_products/272965/T/23754064_2.jpg",
+      rate:89,
+    },
+    {
+      id: 28,
+      name: "Chrome Central Heating Towel Rail Flat Bathroom Radiator Heater",
+      price: 849.00,
+      photo: "https://cdn.manomano.com/images/images_products/6910621/L/16142923_1.jpg",
+      rate:45,
+    },
+    {
+      id: 29,
       name: "Integral shower enclosure Malta",
       price: 849.00,
-      photo: "https://cdn.manomano.com/images/images_products/272965/T/23754064_2.jpg"
+      photo: "https://cdn.manomano.com/images/images_products/272965/T/23754064_2.jpg",
+      rate:30,
+    },
+    {
+      id: 30,
+      name: "Modern Bathroom Bath Shower Mixer Tap Handset & Hose Deck Mounted",
+      price: 849.00,
+      photo: "https://cdn.manomano.com/images/images_products/4029359/L/8946071_1.jpg",
+      rate:15,
     },
   ];
   
