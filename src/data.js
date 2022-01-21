@@ -164,27 +164,6 @@ export const data = [
       rate:15,
     },
     {
-      id: 24,
-      name: "Bathroom Vanity Wash Basin Sink",
-      price: 598.00,
-      photo: "https://cdn.manomano.com/bathroom-vanity-wash-basin-sink-countertop-rectangular-1-th-modern-505-x-350mm-P-4029359-12024019_1.jpg",
-      rate:40,
-    },
-    {
-      id: 25,
-      name: "Bathroom Suite Bath Toilet",
-      price: 849.00,
-      photo: "https://cdn.manomano.com/images/images_products/4029359/L/8756054_1.jpg",
-      rate:9,
-    },
-    {
-      id: 26,
-      name: "ELEGANT Mirror with Light Sensor + Demister",
-      price: 249.00,
-      photo: "https://cdn.manomano.com/images/images_products/6078297/L/12324289_1.jpg",
-      rate:12,
-    },
-    {
       id: 27,
       name: "Modern Grey and Cabinet Vanity Unit Doors",
       price: 849.00,
@@ -192,25 +171,11 @@ export const data = [
       rate:89,
     },
     {
-      id: 28,
-      name: "Bathroom Radiator Heater",
-      price: 849.00,
-      photo: "https://cdn.manomano.com/images/images_products/6910621/L/16142923_1.jpg",
-      rate:45,
-    },
-    {
       id: 29,
       name: "Integral shower enclosure Malta",
       price: 849.00,
       photo: "https://cdn.manomano.com/images/images_products/272965/T/23754064_2.jpg",
       rate:30,
-    },
-    {
-      id: 30,
-      name: "Modern Bathroom Bath Tap Handset & Hose Deck Mounted",
-      price: 849.00,
-      photo: "https://cdn.manomano.com/images/images_products/4029359/L/8946071_1.jpg",
-      rate:15,
     },
   ];
   

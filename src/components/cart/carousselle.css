@@ -201,7 +201,7 @@ h1 {
     grid-template-columns: repeat(5, 97vw);
     overflow-x: scroll;
     overflow-y: hidden;
-    height: 43vh;
+    height: 403px;
   }
   
   .le-grid > .bestchoic {
