@@ -6,7 +6,7 @@ const Store = () => {
   return (
     <div title="Store" description="This is the Store page">
       <Link to="/products">
-        <button className="button">Back to your premade bathroomKit</button>
+        <button className="button">Back to your premade bathroom Kit</button>
       </Link>
       <div>
         <div className="text-center mt-5">

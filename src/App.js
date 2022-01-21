@@ -11,6 +11,7 @@ import ProductsContextProvider from "./contexts/ProductsContext";
 import CartContextProvider from "./contexts/CartContext";
 import Store from "./components/store";
 import ProductsKit from "./components/cart";
+import Details from "./components/store/Details";
 import "./App.css";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/budget" element={<Budget />} />
             <Route path="/products" element={<ProductsKit />} />
             <Route path="/shop" element={<Store />} />
+            <Route path="/details" element={<Details />} />
           </Routes>
           <Footer />
         </CartContextProvider>

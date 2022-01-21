@@ -57,7 +57,7 @@ const ProductItem = ({ product }) => {
             <Rate> {rating} ({product.rate})</Rate>
             </StarContainer> 
             </Wrapper>
-        <Link to="/" className="btn btn-link btn-sm mr-2">
+        <Link to="/details" className="btn btn-link btn-sm mr-2">
           Details
         </Link>
 
